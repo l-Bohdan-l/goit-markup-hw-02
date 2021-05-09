@@ -17,6 +17,16 @@ body {
   color: #212121;
 }
 
+/* ============= COMPONENTS ============= */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* ============= END COMPONENTS ============= */
+
 /* ============= HEADER =============*/
 .logo-link {
   font-family: var(--secondary-font);
@@ -89,3 +99,59 @@ body {
 }
 
 /* ============= HERO'S END =============*/
+
+/* ============= Features =============*/
+.features-suptitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.features-suptitle-descritpion {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* ============= Feature's END =============*/
+
+/* ============= What we do =============*/
+
+/* ============= END What we do =============*/
+
+/* ============= Our team =============*/
+.our-team-list-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.our-team-list-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* ============= END Our team=============*/
+
+/* ============= Footer=============*/
+.addres-list-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  /*color: #FFFFFF;*/
+}
+.addres-list-contacts {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  /*color: #ffffff99;*/
+}
+/* ============= END Footer=============*/ ;
