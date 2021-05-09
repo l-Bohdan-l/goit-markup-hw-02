@@ -76,6 +76,11 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero {
+  background: #2f303a;
 }
 
 .modal-btn {
@@ -140,18 +145,63 @@ body {
 /* ============= END Our team=============*/
 
 /* ============= Footer=============*/
+.footer {
+  background: #2f303a;
+}
+
 .addres-list-link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /*color: #FFFFFF;*/
+  color: #ffffff;
 }
 .addres-list-contacts {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /*color: #ffffff99;*/
+  color: #ffffff99;
 }
-/* ============= END Footer=============*/ ;
+
+.addres-list-link:hover,
+.addres-list-link:focus,
+.addres-list-contacts:hover,
+.addres-list-contacts:focus {
+  color: var(--accent-color);
+}
+/* ============= END Footer=============*/
+
+/* ============= Portfolio Navigation Buttons=============*/
+.portfolio-nav-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.portfolio-nav-btn:focus,
+.portfolio-nav-btn:hover {
+  color: #ffffff;
+  background: var(--accent-color);
+}
+/* ============= END Portfolio Navigation Buttons=============*/
+
+/* ============= Portfolio menu=============*/
+.portfolio-menu-list-header {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-menu-list-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* ============= END Portfolio menu=============*/ ;
