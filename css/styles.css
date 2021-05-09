@@ -182,6 +182,8 @@ body {
   background: #f5f4fa;
   border-radius: 4px;
   cursor: pointer;
+  font-family: var(--main-font);
+  color: #212121;
 }
 .portfolio-nav-btn:focus,
 .portfolio-nav-btn:hover {
