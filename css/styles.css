@@ -17,6 +17,7 @@ body {
   color: #212121;
 }
 
+/* ============= HEADER =============*/
 .logo-link {
   font-family: var(--secondary-font);
   font-weight: bold;
@@ -55,7 +56,9 @@ body {
 .header-contacts-link:focus {
   color: var(--accent-color);
 }
+/* ============= HEADER'S END =============*/
 
+/* ============= HERO =============*/
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -84,3 +87,5 @@ body {
 .modal-btn:focus {
   background-color: #188ce8;
 }
+
+/* ============= HERO'S END =============*/
