@@ -2,6 +2,10 @@
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
+  --second-accent-color: #212121;
+  --third-accent-color: #000000;
+  --fourth-accent-color: #ffffff;
+  --fifth-accent-color: #757575;
 }
 
 .list {
@@ -14,7 +18,7 @@
 
 body {
   font-family: var(--main-font);
-  color: #212121;
+  color: var(--second-accent-color);
 }
 
 /* ============= COMPONENTS ============= */
@@ -38,7 +42,7 @@ body {
 }
 
 .second-logo {
-  color: #000000;
+  color: var(--third-accent-color);
 }
 
 .navigation-list-link {
@@ -46,7 +50,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--second-accent-color);
 }
 
 .navigation-list-link:hover,
@@ -59,7 +63,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--fifth-accent-color);
 }
 
 .header-contacts-link:hover,
@@ -76,7 +80,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--fourth-accent-color);
 }
 
 .hero {
@@ -91,7 +95,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--fourth-accent-color);
   background: #2196f3;
   box-shadow: 0px 4px 4px #00000026;
   border-radius: 4px;
@@ -118,7 +122,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--fifth-accent-color);
 }
 /* ============= Feature's END =============*/
 
@@ -140,7 +144,7 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--fifth-accent-color);
 }
 /* ============= END Our team=============*/
 
@@ -150,18 +154,22 @@ body {
 }
 
 .addres-list-link {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--fourth-accent-color);
+  text-decoration: none;
 }
 .addres-list-contacts {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff99;
+  text-decoration: none;
 }
 
 .addres-list-link:hover,
@@ -169,6 +177,10 @@ body {
 .addres-list-contacts:hover,
 .addres-list-contacts:focus {
   color: var(--accent-color);
+}
+
+.footer-second-logo {
+  color: var(--fourth-accent-color);
 }
 /* ============= END Footer=============*/
 
@@ -183,11 +195,11 @@ body {
   border-radius: 4px;
   cursor: pointer;
   font-family: var(--main-font);
-  color: #212121;
+  color: var(--second-accent-color);
 }
 .portfolio-nav-btn:focus,
 .portfolio-nav-btn:hover {
-  color: #ffffff;
+  color: var(--fourth-accent-color);
   background: var(--accent-color);
 }
 /* ============= END Portfolio Navigation Buttons=============*/
@@ -204,6 +216,6 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--fifth-accent-color);
 }
 /* ============= END Portfolio menu=============*/ ;
